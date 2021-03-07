@@ -1,0 +1,12 @@
+C:\Users\Gianni\source\repos\Greycon_test\Greycon_test\bin\Debug\netcoreapp3.1\Greycon_test.exe
+C:\Users\Gianni\source\repos\Greycon_test\Greycon_test\bin\Debug\netcoreapp3.1\Greycon_test.deps.json
+C:\Users\Gianni\source\repos\Greycon_test\Greycon_test\bin\Debug\netcoreapp3.1\Greycon_test.runtimeconfig.json
+C:\Users\Gianni\source\repos\Greycon_test\Greycon_test\bin\Debug\netcoreapp3.1\Greycon_test.runtimeconfig.dev.json
+C:\Users\Gianni\source\repos\Greycon_test\Greycon_test\bin\Debug\netcoreapp3.1\Greycon_test.dll
+C:\Users\Gianni\source\repos\Greycon_test\Greycon_test\bin\Debug\netcoreapp3.1\Greycon_test.pdb
+C:\Users\Gianni\source\repos\Greycon_test\Greycon_test\obj\Debug\netcoreapp3.1\Greycon_test.AssemblyInfoInputs.cache
+C:\Users\Gianni\source\repos\Greycon_test\Greycon_test\obj\Debug\netcoreapp3.1\Greycon_test.AssemblyInfo.cs
+C:\Users\Gianni\source\repos\Greycon_test\Greycon_test\obj\Debug\netcoreapp3.1\Greycon_test.csproj.CoreCompileInputs.cache
+C:\Users\Gianni\source\repos\Greycon_test\Greycon_test\obj\Debug\netcoreapp3.1\Greycon_test.dll
+C:\Users\Gianni\source\repos\Greycon_test\Greycon_test\obj\Debug\netcoreapp3.1\Greycon_test.pdb
+C:\Users\Gianni\source\repos\Greycon_test\Greycon_test\obj\Debug\netcoreapp3.1\Greycon_test.genruntimeconfig.cache
