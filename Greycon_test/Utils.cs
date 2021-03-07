@@ -2,6 +2,9 @@
 {
     public class Utils
     {
+        /*
+            Esta funcion devuelve el proximo disco (que no fue utilizado previamente) a ser llenado, buscando siempre el que tenga mayor espacio libre.  
+         */
         private static int getMostEmpty(DiskSet disksSet, bool[] marks)
         {
             int freeSpace = 0;
@@ -17,6 +20,10 @@
             return indice;
         }
 
+        /*
+            Esta funcion devuelve el disco (que no fue utilizado previamente) de donde tomar bytes para llenar el seleccionado por getMostEmpty, buscando siempre el que tenga menos espacio usado.
+            (equivalente a mayor espacio libre)
+         */
         private static int getNextMostEmpty(DiskSet disksSet, bool[] marks, int index)
         {
             int freeSpace = 0;
@@ -32,6 +39,9 @@
             return indice;
         }
 
+        /*
+            Esta funcion devuelve la cantidad de discos que no estan vacios, que sirve para determinar el resultado de la solucion.
+         */
         private static int getDisksUsed(DiskSet disksSet)
         {
             int result = 0;
@@ -42,6 +52,13 @@
             return result;
         }
 
+        /*
+            Esta funcion es la que lleva a cabo la solucion del problema planteado.
+            La idea es buscar primero los discos con mayor espacio libre, e ir llenandolos con los demas discos. Cuando se llena se pasa al siguiente con mayor espacio libre y se repite el proceso,
+            hasta que no haya mas discos por llenar. Cada disco que se llena se marca, para que al llenar el proximo, no sea tomado en cuenta para sacar datos.
+            Cuando no haya de donde sacar datos o no haya disco para llenar, termina el proceso.
+            Al terminar, se recorren los discos sumando la cantidad de discos no vacios, para luego devolver ese valor como resultado.
+         */
         public static int packData(DiskSet disksSet)
         {
             bool[] marks_i = new bool[disksSet.Disks.Length]; //Arreglo para marcar los indices ya utilizados para llenar el disco

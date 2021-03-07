@@ -10,3 +10,4 @@ C:\Users\Gianni\source\repos\Greycon_test\Greycon_test\obj\Debug\netcoreapp3.1\G
 C:\Users\Gianni\source\repos\Greycon_test\Greycon_test\obj\Debug\netcoreapp3.1\Greycon_test.dll
 C:\Users\Gianni\source\repos\Greycon_test\Greycon_test\obj\Debug\netcoreapp3.1\Greycon_test.pdb
 C:\Users\Gianni\source\repos\Greycon_test\Greycon_test\obj\Debug\netcoreapp3.1\Greycon_test.genruntimeconfig.cache
+C:\Users\Gianni\source\repos\Greycon_test\Greycon_test\obj\Debug\netcoreapp3.1\Greycon_test.csprojAssemblyReference.cache
